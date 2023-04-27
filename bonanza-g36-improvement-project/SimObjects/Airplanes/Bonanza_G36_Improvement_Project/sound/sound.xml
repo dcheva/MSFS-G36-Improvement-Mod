@@ -5,6 +5,7 @@
 
 	<WwisePackages>
 		<MainPackage Name="Asobo_Bonanza_G36"/>
+		<AdditionalPackage Name="C172_Sp"/>
 	</WwisePackages>
 
   <AcousticParameters>
