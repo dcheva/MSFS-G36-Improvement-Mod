@@ -1,36 +1,31 @@
 // Panel Configuration file
-// Asobo BONANZA_G36  JD GTN750
+// Asobo BONANZA_G36
 
 [VCockpit01]
 size_mm=1024,768
 pixel_size=1024,768
 texture=$AS1000_PFD_1
 background_color=42,42,40
-htmlgauge00=NavSystems/WTG1000/PFD/WTG1000_PFD.html, 0, 0, 1024, 768
+htmlgauge00=NavSystems/WTG1000/PFD/WTG1000_PFD.html, 0,0,1024,768
 
 [VCockpit02]
-size_mm=0,0
-pixel_size=0,0
-texture=$NONE
+size_mm=1024,768
+pixel_size=1024,768
+texture=$AS1000_PFD_2
 background_color=42,42,40
-htmlgauge00=NavSystems/WTG1000/MFD/WTG1000_MFD.html,0,0,0,0
+htmlgauge00=NavSystems/WTG1000/MFD/WTG1000_MFD.html, 0,0,1024,768
 
 [VCockpit03]
 size_mm=317,109
 pixel_size=317,109
 texture=$OAT_Screen
-htmlgauge00=Generic/Misc/DigitalOAT/DigitalOAT.html, 0,0,317,109
+htmlgauge00=DigitalOAT/DigitalOAT.html, 0,0,317,109
 
 [VCockpit04]
-size_mm=1024,768
-pixel_size=1024,768
-texture=$AS1000_PFD_2
-background_color=42,42,40
-htmlgauge00=NavSystems/JD_GTN750_AS1000_WT/JD_GTN750_AS1000_WT.html ,0,0,1024,768
-;htmlgauge00=NavSystems/PMS1750/GTN1750.html,0,0,1024,768
-
-
-
+size_mm=317,109
+pixel_size=317,109
+texture=$G36XIP
+htmlgauge00=CaptMatto/G36XIP.html, 0,0,317,109
 
 [VPainting01]
 size_mm	= 256, 64
